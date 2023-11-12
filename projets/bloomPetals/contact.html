@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/fan-solid.svg">
+    <title>BloomPetals</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="entreprise.html">Entreprise</a></li>
+                <li><a href="realisations.html">Réalisations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <input type="text" placeholder="Search..">
+    </header>
+    <main id="main-contact">
+        <h2 class="title2-padding">Contactez-nous</h2>
+        <section id="contact-container">
+            <div id="form-container">
+                <p>Remplissez le formulaire ci-dessous pour nous contacter.</p>
+
+                <form action="" method="">
+                    <label for="civilite">Civilité :</label>
+                    <select name="civilite" id="civilite">
+                        <option value="M">Monsieur</option>
+                        <option value="Mme">Madame</option>
+                    </select><br><br>
+
+                    <label for="nom">Nom :</label>
+                    <input type="text" name="nom" id="nom" required><br><br>
+
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" name="prenom" id="prenom" required><br><br>
+
+                    <label for="adresse">Adresse postale :</label>
+                    <textarea name="adresse" id="adresse" rows="4" required></textarea><br><br>
+
+                    <input type="checkbox" name="confidentialite" id="confidentialite" required>
+                    <label for="confidentialite">J'accepte les politiques de confidentialité de
+                        l'entreprise</label><br><br>
+
+                    <input type="submit" value="Envoyer">
+                </form>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12773.467096940145!2d5.384456237026676!3d43.2649366391982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9bf4344da5333%3A0x40819a5fd970220!2sMarseille!5e0!3m2!1sfr!2sfr!4v1698991915490!5m2!1sfr!2sfr"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <footer class="noscroll-footer">
+
+    </footer>
+
+</body>
+
+</html>

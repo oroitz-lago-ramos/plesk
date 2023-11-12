@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', regular;
+    /* background-color: rgb(244, 244, 244); */
+}
+
+main {
+    justify-content: center;
+}
+
+header {
+    background-color: #876ed8;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: rgba(0, 0, 0, 0.396) 1px solid;
+    margin-bottom: 2em;
+}
+
+
+
+span {
+    color: #876ed8;
+}
+
+#cv-photo {
+    border-radius: 100em;
+    padding: 1em;
+    margin-right: 3em;
+}
+
+#grand-div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#formations,
+#experiences {
+    max-width: 300px;
+    padding: 0 2%;
+    color: black;
+    margin-top: 0;
+    margin: 5px;
+}
+
+/* #formations:hover, #experiences:hover {
+    transition: 0.3s;
+} */
+
+h2 {
+    color: #876ed8;
+    text-shadow: #876ed8 0.5px 0 1px;
+}
+
+
+
+.cv-element * {
+    padding: 0;
+    margin: 0;
+}
+
+.cv-element {
+    padding-bottom: 1em;
+}
+.cv-element h5 {
+    color: rgba(40, 40, 40, 0.999);
+}
+
+
+.competences h2 {
+    text-align: center;
+}
+.competences {
+    display: flex;
+    flex-direction: column;
+}
+
+.competences h2,
+.competences h4 {
+    color: #876ed8;
+}
+
+
+#competences-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5px
+}
+
+
+#competences-container h4 {
+    padding-left: 40px;
+}
+
+aside h2 {
+    display: flex;
+    justify-content: center;
+    color: #876ed8;
+}
+
+aside p {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 1em
+}
+
+footer a {
+    padding: 0.5em;
+    align-items: baseline;
+}
+
+
+a {
+    text-decoration: none;
+    padding: 3;
+    color: black;
+}
+
+/* a:visited {
+    color: #f3f3f3;
+} */
+
+/* a:focus {
+    border-bottom: 1px solid;
+    background: #bae498;
+} */
+
+a:hover {
+    border-bottom: 1px solid;
+    color: #f3f3f3;
+}
+
+.boxed {
+     /* From https://css.glass */
+     background: rgba(255, 255, 255, 0.3);
+     border-radius: 16px;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     backdrop-filter: blur(6px);
+     -webkit-backdrop-filter: blur(6px);
+     border: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+#hard-skills, #soft-skills, #langues {
+justify-content: center;
+width: 200px;
+}
+
+#divers {
+ display: flex;
+ flex-direction: column;
+}
+
+#media-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+}
+#media-container video{
+height: 320px;
+}
+
+#projets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
