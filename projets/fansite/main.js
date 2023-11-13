@@ -1,3 +1,4 @@
+// Gestion de la musique de fond
 var myAudio = document.getElementById("my-audio");
 var myButton = document.getElementById("pp-button");
 var isPlaying = false;
@@ -18,3 +19,4 @@ myAudio.onplaying = function () {
 myAudio.onpause = function () {
   isPlaying = false;
 };
+
