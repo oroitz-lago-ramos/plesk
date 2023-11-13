@@ -178,3 +178,8 @@ height: 320px;
     justify-content: center;
     align-items: center;
 }
+
+.grid-container {
+    display: flex;
+    gap: 20px
+}
