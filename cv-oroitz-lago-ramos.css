@@ -183,3 +183,10 @@ height: 320px;
     display: flex;
     gap: 20px
 }
+
+#cv-it {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
