@@ -10,7 +10,8 @@ main {
 }
 
 header {
-    background-color: #876ed8;
+    /* background-color: #876ed8; */
+    background-color : rgba(0, 0, 0, 0.396);
     width: 100%;
     display: flex;
     align-items: center;
